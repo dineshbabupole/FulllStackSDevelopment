@@ -1,0 +1,41 @@
+body{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(51, 3, 49);
+}
+#container{
+       width:500px;
+       height:300px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;     
+        background-color: rgb(148, 78, 148);  
+        border:5px dotted black;
+
+}
+#add{
+    width: 10rem;
+    height:5 rem;
+    background-color: green;
+}
+#remove{
+      width: 10rem;
+    height:5 rem;
+    background-color: red;
+}
+#add:hover{
+    background-color: yellowgreen;
+}
+#remove:hover{
+    background-color: rgb(233, 73, 73);
+}
+h1,h2{
+    color:rgb(36, 199, 90);
+}
+ul{
+    color:red;
+}
