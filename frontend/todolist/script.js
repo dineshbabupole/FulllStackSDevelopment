@@ -1,10 +1,7 @@
 $(document).ready(function(){
-
     $("#add").click(function(){
         let val = $("input").val();
-        
         if(val){
-            
             $("ul").append(`
                 <li>
                     ${val} 
@@ -12,14 +9,9 @@ $(document).ready(function(){
                     <button class="delete-btn">delete</button>
                 </li>
             `);
-            
-            
-            $("input").val('');
-            
-        
+            $("input").val(''); 
         }
     });
-    
     $("ul").on("click", ".complete-btn", function(){
         $(this).parent().css("background-color","yellow");
     });
